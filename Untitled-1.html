@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .contenedor-principal {
+        display: flex;
+        justify-content: space-between; /* Alinea los contenedores al inicio y al final del contenedor principal */
+        align-items: flex-start; /* Alinea los contenedores en la parte superior del contenedor principal */
+        height: 100vh; /* Altura del 100% de la ventana gráfica */
+      }
+
+      .contenedor-izquierdo,
+      .contenedor-derecho {
+        display: flex;
+        flex-direction: column; /* Alinea los elementos en columna dentro de cada contenedor */
+        align-items: flex-start; /* Alinea los elementos a la izquierda dentro de cada contenedor */
+      }
+
+      /* Estilos adicionales para claridad */
+      .caja {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 5px;
+      }
+    </style>
+    <title>Flexbox Izquierda y Derecha</title>
+  </head>
+  <body>
+    <div class="contenedor-principal">
+      <div class="contenedor-izquierdo">
+        <div class="caja">Elemento 1</div>
+        <div class="caja">Elemento 2</div>
+      </div>
+      <div class="contenedor-derecho">
+        <div class="caja">Elemento 3</div>
+        <div class="caja">Elemento 4</div>
+      </div>
+    </div>
+  </body>
+</html>
