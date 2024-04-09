@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: url("/img/bg-header.png");
+  background-size: cover;
+  padding-bottom: 150px;
+}
+
+header nav {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+nav ul a {
+  color: #ffffff;
+  font-size: 24px;
+  padding: 8px 12px;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+:active nav ul a {
+  border-bottom: 1px solid #ffffff;
+}
+
+#hero {
+  text-align: center;
+  padding-top: 150px;
+}
+
+#hero h2 {
+  font-size: 50px;
+  color: #ffff00;
+}
+
+#hero h1 {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+#hero button {
+  font-size: 30px;
+  padding: 5px 15px;
+  background: #ffff00;
+  border-radius: 10px;
+  border-color: transparent;
+  margin-top: 50px;
+}
+
+#hero button a {
+  text-decoration: none;
+  padding: 10px;
+  color: #808080;
+}
+
+#planes {
+  box-sizing: border-box;
+  width: 100%;
+  background: white;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#planes h2 {
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+#planes p {
+  font-size: 25px;
+  color: #000;
+  padding-top: 3px;
+}
+
+#planes span {
+  font-weight: bold;
+}
+
+#planes .fila {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+#planes .col-plan {
+  position: relative;
+  z-index: 1;
+}
+
+#planes .col-plan h3 {
+  position: absolute;
+  z-index: 3;
+  top: 110px;
+  left: 0;
+  right: 0;
+  color: yellow;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#destinos {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  background: url(/img/bg-destinos.png);
+  background-size: cover;
+  padding-bottom: 200px;
+}
+
+#destinos h2 {
+  padding-top: 200px;
+  margin-bottom: 100px;
+  color: #ffff00;
+  font-size: 50px;
+}
+
+#destinos .fila {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#destinos .col-destinos {
+  padding: 20px;
+  display: inline-block;
+  margin: auto;
+  margin: 60px;
+}
+
+#destinos h3 {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+#contacto {
+  box-sizing: border-box;
+  width: 100%;
+  background: #ffff00;
+  text-align: center;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  font-size: 20px;
+}
+
+#contacto h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#contacto .col-contacto form input {
+  display: inline-block;
+  padding: 6px;
+  margin-left: 160px;
+  margin-right: 120px;
+  margin-top: 15px;
+  width: 230px;
+}
+
+#contacto ::placeholder {
+  font-weight: bold;
+  font-size: 15px;
+  color: #808080;
+}
+
+#contacto p {
+  margin: 20px;
+  text-align: center;
+}
+
+#contacto button {
+  width: 120px;
+  height: 25px;
+  margin: 100px;
+  margin-top: 30px;
+  display: inline-block;
+  border-radius: 3px;
+  border: transparent;
+  background-color: rgba(15, 15, 15, 0.562);
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#footer {
+  width: 100%;
+  background: black;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 20px;
+  color: white;
+}
+
+#footer .pie {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
