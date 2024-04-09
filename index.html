@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juan Castro & Agnel Salazar</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="img/icono.png" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <img src="img/logo.png" alt="Logo Rumbo" />
+        <ul>
+          <a href="#inicio">Inicio</a>
+          <a href="#planes">Planes</a>
+          <a href="#destinos">Destinos</a>
+          <a href="#contacto">Contacto</a>
+        </ul>
+      </nav>
+      <div id="hero">
+        <img src="img/brujula.png" alt="Imagen de una Brujula" />
+        <h2>RUMBO</h2>
+        <h1>El SITIO WEB DE TURISMO IDEAL PARA TI</h1>
+        <button>
+          <a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            target="_blank"
+            rel="noreferrer"
+            >EMPEZAR</a
+          >
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="planes">
+        <h2>PLANES</h2>
+        <p>
+          En <span>RUMBO</span> tenemos los iguientes planes para ti <br />
+          Selecciona el plan que mas se ajuste a la experiencia que quieras
+          vivir <br />
+        </p>
+
+        <div class="fila">
+          <div class="col-plan">
+            <img src="/img/senderismo.png" alt="" />
+            <h3>SENDERISMO</h3>
+            <p>
+              5 a 8 personas <br />
+              6 km de ruta <br />
+              150.000 Pesos <br />
+              Precio por persona <br />
+            </p>
+          </div>
+
+          <div class="col-plan">
+            <img src="/img/canotaje.png" alt="" />
+            <h3>CANOTAJE</h3>
+            <p>
+              5 a 8 personas <br />
+              6 km de ruta <br />
+              150.000 Pesos <br />
+              Precio por persona <br />
+            </p>
+          </div>
+
+          <div class="col-plan">
+            <img src="/img/senderismo.png" alt="" />
+            <h3>CAMPING</h3>
+            <p>
+              5 a 8 personas <br />
+              6 km de ruta <br />
+              150.000 Pesos <br />
+              Precio por persona <br />
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="destinos">
+        <h2>DESTINOS</h2>
+        <div class="fila">
+          <div class="col-destinos">
+            <img src="/img/cartagena.png" alt="" />
+            <h3>CARTAGENA</h3>
+          </div>
+
+          <div class="col-destinos">
+            <img src="/img/barranquilla.png" alt="" />
+            <h3>BARRANQUILLA</h3>
+          </div>
+
+          <div class="col-destinos">
+            <img src="/img/llanos.png" alt="" />
+            <h3>LLANOS ORIENTALES</h3>
+          </div>
+
+          <div class="col-destinos">
+            <img src="/img/laguajira.png" alt="" />
+            <h3>GUAJIRA</h3>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <h2>CONTACTO</h2>
+        <p>
+          Comparte con nosotros tus datos de contacto y te enviaremos <br />
+          toda la informacion de los medios de pago <br />
+        </p>
+
+        <div class="fila">
+          <div class="col-contacto">
+            <form>
+              <input type="text" id="nombre" placeholder="Nombres:" required />
+              <input type="email" id="Email" placeholder="Email:" required />
+              <input
+                type="tel"
+                id="Telefono"
+                placeholder="Telefono:"
+                required
+              />
+              <datalist id="Ciudad">
+                <option>Bogota</option>
+                <option>Cali</option>
+                <option>Medellin</option>
+              </datalist>
+
+              <input
+                list="Ciudad"
+                id="Ciudades"
+                placeholder="Ciudad:"
+                required
+              />
+
+              <button type="submit">ENVIAR</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer id="footer">
+        <div class="pie">© Todos los derechos reservados <br /></div>
+
+        <div class="pie">contacto@rumbo.com <br /></div>
+
+        <div class="pie">+57 3212444445 <br /></div>
+
+        <div class="pie">Cr 90 #93 - 20 <br /></div>
+      </footer>
+    </main>
+  </body>
+</html>
